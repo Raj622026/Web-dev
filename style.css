@@ -1,8 +1,48 @@
-#n1{
-    height:100px ;
-    margin: 50px;
-    border: radius 30px; ;
-    border-color: blue;
-    padding: auto;
-    width: 40px;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(127, 127, 194);
+    padding: 20px; ;
+    border-radius: 30px;
+}
+h1{
+   text-align: center;
+   color: blue;
+    
+}
+label{
+  font-size: 25px;
+  font-weight: 400;
+  margin: 20px; ;
+}
+input{
+    width: 70%;
+    height: 30px; ;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+button{
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: greenyellow;
+   
+    
 }
