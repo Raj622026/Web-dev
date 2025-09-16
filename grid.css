@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+}
+.container{
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 1fr,1fr;
+    grid-template-columns: 1fr,1fr;
+    gap: 20px;
+    background-color: deeppink;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    
+}
+.box{
+    background-color: rgba(230, 119, 16, 0.631);
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+}
+.first{
+    background-color: aquamarine;
+}
+.Second{
+    background-color: chartreuse;
+}
+.Third{
+    background-color: darkgreen;
+}
+.Forth{
+      background-color: darkmagenta;
+}
